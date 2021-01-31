@@ -1,4 +1,4 @@
-export default (state, action) => {
+const Todo = (state, action) => {
 	switch(action.type){
 		case 'REMOVE_USER':
 		return {
@@ -29,4 +29,9 @@ export default (state, action) => {
 		default:
 			return state
 	}
-}
+};
+
+
+// const Todo = () => {};
+
+export default Todo;

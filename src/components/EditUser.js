@@ -8,7 +8,7 @@ import {
 	Button
 } from 'reactstrap';
 import {GlobalContext} from '../Context/GlobalState';
-import {v4 as uuid } from 'uuid';
+// import {v4 as uuid } from 'uuid';
 
 export default function EditUser(props) {
     const [selectedUser, setSelectedUser] = useState({
